@@ -155,13 +155,20 @@ img {
 .our-ways-section .section-card {
   width: calc((100% - 72px) / 4);
 }
-.our-ways-section ul {
+.our-ways-list {
   display: flex;
   gap: 24px;
   justify-content: center;
 }
 .visually-hidden {
-  display: none;
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
 }
 .our-ways-section .section-item-header {
   margin-bottom: 8px;
