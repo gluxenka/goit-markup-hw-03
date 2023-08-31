@@ -24,9 +24,16 @@ img {
 .container {
   width: 1158px;
   margin: 0 auto;
+}
+.header-section .container,
+.our-ways-section .container,
+.team-section .container,
+.portfolio-section .container,
+.footer-section .container {
   padding-left: 15px;
   padding-right: 15px;
 }
+
 .header-section {
   width: 100%;
   background-color: #fff;
@@ -287,4 +294,5 @@ img {
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
